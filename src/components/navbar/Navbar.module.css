@@ -1,0 +1,17 @@
+.container {
+  background-color: #fff3;
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 25px 4vw 15px 4vw;
+  display: flex;
+  justify-content: space-between;
+  backdrop-filter: blur(10px);
+}
+
+.container_buttons {
+  display: flex;
+  gap: 5vw;
+}
