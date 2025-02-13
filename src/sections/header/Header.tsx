@@ -10,7 +10,7 @@ export default function Header() {
   const categories = useGetAPI<response_API["categories"]>("categories");
 
   return (
-    <header className={css.container}>
+    <header className={css.container} id="inicio">
       <Image
         src={header.data ? header.data[0].image : undefined}
         alt="Imagen de Portada"

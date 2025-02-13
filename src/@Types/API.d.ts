@@ -16,4 +16,11 @@ export default interface response_API {
     created: string;
     modified: string;
   }[];
+  feedInstagram: {
+    id: number;
+    image: string;
+    order: number;
+    created: string;
+    modified: string;
+  }[];
 }

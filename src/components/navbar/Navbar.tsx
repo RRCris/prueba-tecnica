@@ -4,11 +4,11 @@ export default function Navbar() {
     <nav className={css.container}>
       <img src="public/logo.png" alt="logo de la pagina" width={130} />
       <div className={css.container_buttons}>
-        <a>Inicio</a>
-        <a>Nosotros</a>
-        <a>Viajes</a>
-        <a>Blogs</a>
-        <a>Contacto</a>
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#viajes">Viajes</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#contacto">Contacto</a>
       </div>
     </nav>
   );
