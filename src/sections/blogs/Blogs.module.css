@@ -1,0 +1,106 @@
+.container {
+  background-color: var(--main-color);
+  padding: 50px 5vw;
+}
+
+.container h2 {
+  font-family: "Space Grotesk";
+  text-align: center;
+  color: #fff;
+  letter-spacing: 12px;
+  margin-bottom: 40px;
+}
+
+.container .spinner {
+  height: 600px;
+}
+
+.containerMainCard {
+  padding: 20px;
+  background-color: #fff;
+  width: 350px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.containerMainCard img {
+  border-radius: 20px;
+  object-fit: cover;
+}
+.containerMainCard p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+.containerMainCard a {
+  text-align: right;
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+.containerCard {
+  padding: 20px;
+  background-color: #fff;
+  width: 350px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.containerCard img {
+  border-radius: 10px;
+  object-fit: cover;
+}
+.containerCard p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+.containerCard a {
+  text-align: right;
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+.containerCards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+
+  gap: 30px;
+}
+
+@media (max-width: 880px) {
+  /* Aquí van los estilos que quieres aplicar a dispositivos con ancho menor a 880px */
+  .containerCards {
+    height: unset;
+  }
+}
+
+@media (max-width: 430px) {
+  /* Aquí van los estilos que quieres aplicar a dispositivos con ancho menor a 880px */
+  .containerMainCard {
+    width: 100%;
+  }
+  .containerMainCard img {
+    width: 100%;
+  }
+
+  .containerCard {
+    width: 100%;
+  }
+  .containerCard img {
+    width: 100%;
+  }
+}

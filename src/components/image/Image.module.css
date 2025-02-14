@@ -1,0 +1,16 @@
+.loading {
+  filter: blur(20px);
+}
+
+.ready {
+  animation: in 1s;
+}
+
+@keyframes in {
+  from {
+    filter: blur(20px);
+  }
+  to {
+    filter: blur(0);
+  }
+}

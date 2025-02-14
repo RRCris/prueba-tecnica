@@ -1,0 +1,87 @@
+.container {
+  position: relative;
+}
+
+.image_banner {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.containerTitle {
+  width: 70vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: center;
+  font-size: 6vw;
+  font-weight: bold;
+  font-family: "Space Grotesk";
+  color: #fff;
+  letter-spacing: 20px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.containerTitle span {
+  text-align: center;
+  font-size: 2vw;
+  color: var(--main-color);
+  letter-spacing: 3vw;
+}
+
+.containerCards {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 10px 0;
+
+  padding: 30px 0px;
+}
+
+.cards {
+  flex-basis: 300px;
+  flex-shrink: 1;
+  height: 170px;
+
+  background-color: #fff6;
+  border-radius: 20px;
+
+  padding: 10px;
+
+  position: relative;
+}
+
+.cards img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cards .containerCardTitle {
+  position: absolute;
+  bottom: 13%;
+  right: 7%;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.containerCardTitle p {
+  text-align: right;
+}

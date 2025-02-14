@@ -1,0 +1,17 @@
+.container {
+  padding: 30px 15vw;
+}
+.container h2 {
+  font-family: "Space Grotesk";
+  text-align: center;
+  letter-spacing: 8px;
+  color: #d09b48;
+  margin-bottom: 30px;
+}
+
+.container p {
+  font-size: 18px;
+  font-weight: 200;
+  text-align: justify;
+  margin-bottom: 30px;
+}

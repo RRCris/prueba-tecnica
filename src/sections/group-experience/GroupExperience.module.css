@@ -1,0 +1,9 @@
+.title {
+  color: var(--main-color);
+  text-align: center;
+  margin: 40px 0;
+
+  font-family: "Space Grotesk";
+  letter-spacing: 15px;
+  text-transform: uppercase;
+}
