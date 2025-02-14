@@ -31,7 +31,7 @@
 .containerTitle span {
   text-align: center;
   font-size: 2vw;
-  color: rgb(255, 194, 102);
+  color: var(--main-color);
   letter-spacing: 3vw;
 }
 

@@ -12,7 +12,7 @@ export default function Image(props: React.JSX.IntrinsicElements["img"]) {
   return (
     <img
       {...props}
-      src={props.src ? base_API + props.src : "./placeholder_image.jpg"}
+      src={props.src ? base_API + props.src : "./placeholder_image.webp"}
       className={`${props.className} ${ready ? css.ready : css.loading}`}
       onLoad={(e) => {
         if (props.onLoad) props.onLoad(e);

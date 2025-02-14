@@ -1,5 +1,5 @@
 .loading {
-  filter: blur(10px);
+  filter: blur(20px);
 }
 
 .ready {
@@ -8,7 +8,7 @@
 
 @keyframes in {
   from {
-    filter: blur(10px);
+    filter: blur(20px);
   }
   to {
     filter: blur(0);

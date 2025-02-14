@@ -59,12 +59,12 @@
 }
 
 .backgroundInstagram {
-  background-color: #d89c4c;
+  background-color: var(--main-color);
   border-radius: 50%;
   padding: 3px;
 }
 
 .userInstagram {
   margin: 10px 15.5vw;
-  color: #d89c4c;
+  color: var(--main-color);
 }
