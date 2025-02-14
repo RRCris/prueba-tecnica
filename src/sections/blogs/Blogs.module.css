@@ -1,0 +1,16 @@
+.container {
+  background-color: var(--main-color);
+  padding: 50px 10vw;
+}
+
+.container h2 {
+  font-family: "Space Grotesk";
+  text-align: center;
+  color: #fff;
+  letter-spacing: 12px;
+  margin-bottom: 40px;
+}
+
+.container .spinner {
+  height: 600px;
+}

@@ -1,0 +1,41 @@
+.container {
+  margin: 10vw;
+}
+.container h2 {
+  text-align: center;
+  color: var(--main-color);
+  letter-spacing: 10px;
+  margin-bottom: 60px;
+}
+
+.container .content {
+  display: flex;
+  gap: 5vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.information {
+  flex-grow: 1;
+  flex-wrap: 1;
+  flex-basis: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.information p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.information a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  background-color: var(--main-color);
+  width: fit-content;
+  padding: 10px 30px;
+  border-radius: 6px;
+}

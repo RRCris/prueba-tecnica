@@ -5,7 +5,6 @@ export function getRangeDate(from: string, to: string) {
   const mes2 = fecha2.toLocaleString("es-ES", { month: "long" }).toUpperCase();
   const dia1 = fecha1.getDate();
   const dia2 = fecha2.getDate();
-  console.log(mes1);
   if (mes1 === mes2) {
     return `${dia1} AL ${dia2} DE ${mes1}`;
   }

@@ -5,7 +5,6 @@ import css from "./About.module.css";
 
 export default function About() {
   const { data } = useGetAPI<response_API["feedInstagram"]>("feedInstagram");
-  console.log(data);
   return (
     <>
       <section className={css.container} id="nosotros">

@@ -34,10 +34,10 @@ function HeaderCards({ data }: { data: response_API["categories"][number] }) {
   return (
     <div className={css.cards}>
       <Image src={data.image_banner} />
-      <div className={css.containerCardTitle}>
+      <a className={css.containerCardTitle} href={data.url_front}>
         <p>{data.name}</p>
         <Icon icon="gg:arrow-right-o" width={30} />
-      </div>
+      </a>
     </div>
   );
 }

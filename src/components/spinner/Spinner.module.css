@@ -55,10 +55,12 @@
 .container {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #0003;
   padding: 10px 0;
   animation-name: in;
   animation-duration: 0.5s;
+  border-radius: 20px;
 }
 
 @keyframes in {

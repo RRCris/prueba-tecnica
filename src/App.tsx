@@ -4,6 +4,7 @@ import Header from "./sections/header/Header";
 import About from "./sections/about/About";
 import GroupExperience from "./sections/group-experience/GroupExperience";
 import CustomExperience from "./sections/custom-experience/CustomExperience";
+import Blogs from "./sections/blogs/Blogs";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
         <div className="divider" />
         <GroupExperience />
         <CustomExperience />
+        <Blogs />
       </main>
     </>
   );
