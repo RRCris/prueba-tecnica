@@ -1,0 +1,30 @@
+.container {
+  height: 40px;
+  width: 230px;
+  background-color: #fff;
+  border-radius: 6px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: large;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200;
+
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.container:hover {
+  outline: 2px solid #000;
+}
+.container:active {
+  transform: scale(0.9);
+}
+
+.select {
+  color: #fff;
+  background-color: var(--main-color);
+}

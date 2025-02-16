@@ -5,6 +5,7 @@ import About from "./sections/about/About";
 import GroupExperience from "./sections/group-experience/GroupExperience";
 import CustomExperience from "./sections/custom-experience/CustomExperience";
 import Blogs from "./sections/blogs/Blogs";
+import Form from "./sections/form/Form";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
         <GroupExperience />
         <CustomExperience />
         <Blogs />
+        <Form />
       </main>
     </>
   );

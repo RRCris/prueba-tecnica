@@ -12,7 +12,7 @@ export default function Blogs() {
       {data ? (
         <div className={css.containerCards}>
           {data.map((blog, index) => (
-            <CardBlog data={blog} main={index === 0} />
+            <CardBlog data={blog} main={index === 0} key={blog.id} />
           ))}
         </div>
       ) : (
