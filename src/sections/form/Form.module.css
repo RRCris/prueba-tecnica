@@ -1,0 +1,32 @@
+.container {
+  background-color: rgb(226, 226, 226);
+  padding: 30px 10vw;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container h2 {
+  font-family: "Space Grotesk";
+  text-align: center;
+  color: var(--main-color);
+  letter-spacing: 12px;
+  margin-bottom: 40px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.wrapper_column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+}

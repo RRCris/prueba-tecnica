@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.container input {
+  border: none;
+  height: 40px;
+  border-radius: 6px;
+
+  text-align: center;
+  font-size: large;
+  font-weight: 200;
+}
